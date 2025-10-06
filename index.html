@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Guess my number</h1>
+
+    <button id="start">Start</button>
+    <p class="game">Press start to play!</p>
+
+    <div class="content">
+      <form action="submit">
+        <label for="number">Your guess</label>
+        <input type="number" name="number" id="number" />
+        <button type="submit" id="guess-btn">Guess!</button>
+      </form>
+
+      <div class="last-number">
+        <h2>You guessed:</h2>
+        <h2 class="last-guess"></h2>
+      </div>
+      <h2 class="addNumber"></h2>
+    </div>
+
+    <div class="guess-comment">
+      <h2 class="comment"></h2>
+    </div>
+
+    <div class="guessed-numbers-list">
+      <p>Guessed numbers</p>
+      <ul class="added-number"></ul>
+    </div>
+
+    <button id="reset">I GIVE UP!!</button>
+  </body>
+</html>
