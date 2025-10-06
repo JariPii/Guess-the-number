@@ -1,4 +1,4 @@
-# Guess-the-number
+# Guess the number
 
 This is a number guessing game. The game generates a number and you need to guess the number. The random number generated is saved in the localstorage.
 
